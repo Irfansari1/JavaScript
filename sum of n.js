@@ -18,5 +18,6 @@ function sum(x){
 }        
 
 console.log(sum(13));
+console.log(sum(15));
 
 /* sum of n */

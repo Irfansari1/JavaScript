@@ -16,4 +16,17 @@ const keyValueList = function(obj){
     return [arr1,arr2]
 
 
+     
+     
+
 } 
+
+/* function keysAndValues(obj) {
+	const arrs = [Object.keys(obj).sort(), Object.values(obj)];
+	return arrs;
+
+}
+ */
+
+
+console.log(keyValueList({ b: 1, d: 2, a: 3 }));

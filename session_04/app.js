@@ -155,4 +155,75 @@ if(password.length >=5 && password.includes('@') ){
  */
 
 
+// Loops
 
+// let i = 12;
+// let sum = 0;
+
+// while (i < 11) {
+//     sum += i;
+//     console.log(i);
+//     i++
+//     // if (i==8) break;   
+// }
+// console.log(sum);
+
+// while (i<11) {
+//     sum += i;
+//     i++
+//     if (i==8) continue;
+//     console.log(i);
+// }
+
+// let i = 5;
+// let sum = 0
+
+// do {
+//     sum += i;
+//     i++;
+// }
+// while (i < 5);
+// console.log(sum);
+
+
+// let text = 'Clarusway';
+
+// for(let i =0; i < text.length; i++){
+//     console.log(text[i]);
+// }
+/* let sum = 0;
+for(let i = 0; i <= 10;i++){
+    sum += i;
+    console.log(sum);
+} */
+
+// let sum = 0;
+// for(let i = 0; i <= 10;i++){
+    
+//     if (i %2 ==0){
+//     // sum += i;
+//     console.log(i);
+//     }
+    // console.log(sum);
+
+
+
+// 1 den 100 e kadar sayılarda fizz buzz
+// Eğer sayı 3 e bölünüyorsa fizz
+// Eğer sayı 5 e bölünüyorsa buzz
+// Hem 3 e hem 5 e bölünnüyorsa fizzbuz
+// Harun
+/* for(let i = 0; i <100 ; i++){
+    if(i%15 == 0){
+      console.log(i,"FizzBuzz")
+    }
+    else if(i%5 == 0){
+      console.log(i,"Buzz")
+    }
+    else if (i%3 == 0){
+      console.log(i,"Fizz")
+    }
+  }  */
+
+
+  //Ödev 1 den 100 e kadar asal sayılar

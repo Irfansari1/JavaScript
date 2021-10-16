@@ -11,3 +11,21 @@ function fibonacci(num) {
 
 }
 console.log(fibonacci(7));
+
+/*
+const fibonacci = function (limit) {
+    let arr = [0, 1];
+      while (arr.length < limit) {
+        arr.push(arr[arr.length - 1] + arr[arr.length - 2]);
+    }
+
+    return arr
+
+
+    
+}
+
+  
+
+
+console.log(fibonacci(10));*/

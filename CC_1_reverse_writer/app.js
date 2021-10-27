@@ -13,7 +13,7 @@ let parag = document.getElementById("par");
 
 submit.addEventListener("click", func);
     function func(){
-        par.innerHTML += `Reversed text is : ${reverse(input.value)}`
+        par.innerHTML = `Reversed text is : ${reverse(input.value)}`
     }
 
 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-image: url(./img/fib.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        #input{
+            padding: 3rem;
+            border-radius: 10%;
+            outline-style: double;
+            text-align: center;
+            outline-color: rgb(108, 108, 168);
+            outline-width: 1rem;
+            font-weight: bolder;
+            margin-top: 15rem; 
+            background-color: rgb(160, 147, 152);
+        }
+        #output{
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="input">
+        <label for="">It returns the corresponding Fibonacci Number</label><br><br>
+        <input type="number" id="number" placeholder="Please enter the index...">
+        <button type="submit" id="btn">Submit</button>
+    </div>
+    <div id="output">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

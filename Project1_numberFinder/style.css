@@ -11,7 +11,7 @@ body{
     grid-template-columns:repeat(1, 1fr) ;
     grid-template-rows:repeat(3, 150px) 5px ;
     gap: 50px;
-    margin-right: 60%;
+    margin-right: 30rem;
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 10%;
@@ -55,7 +55,7 @@ body{
 #attempt{
     border: 1px solid black;
     height: 3rem;
-    width: 17rem;
+    width: 80%;
     margin: 0.4rem;
     display: flex;
     align-items: center;

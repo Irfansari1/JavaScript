@@ -29,7 +29,7 @@ buttonsContainer.addEventListener('click', e => {
           BD.innerText = '';
         }
         break;
-      case '−':
+      case '-':
         if (BD.innerText !== '') {
             SD.innerText = `${BD.innerText} ${operator}`;
           BD.innerText = '';
@@ -55,7 +55,7 @@ buttonsContainer.addEventListener('click', e => {
             BD.innerText = currentNumber + previousNumber;
             SD.innerText = '';
           }
-          if (SD.innerText.includes('−')) {
+          if (SD.innerText.includes('-')) {
             const currentNumber = Number(BD.innerText);
             const previousNumber = Number(SD.innerText.split(' ')[0]);
             BD.innerText = previousNumber - currentNumber;

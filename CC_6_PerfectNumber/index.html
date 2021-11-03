@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./img/numbers.jpg);
+            background-repeat: none;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 8rem;
+        }
+        #output{
+            color: white;
+        }
+        #number{
+            height: 30px;
+        }
+
+        #btn{
+            height: 35px;
+            cursor: pointer;
+        }
+        button:hover {
+        color: white;
+        background: orange;
+        }
+        #output{
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="input">
+        <input type="number" id="number" placeholder="Perfect or Not">
+        <button type="submit" id="btn" >Check it!</button>
+    </div>
+    <div id="output">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

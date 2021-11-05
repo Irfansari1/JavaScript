@@ -1,5 +1,22 @@
+const cells = document.querySelectorAll(".content")
+
+function colorproducer (){
+    
+    return `rgb(${Math.floor(Math.random()*255+1)},${Math.floor(Math.random()*255+1)},${Math.floor(Math.random()*255+1)})`
+}
+
+
+cells.forEach(el => {
+    el.addEventListener("click",function(){
+        for(let i = 0; i<cells.length;i++){
+            cells[i].style.backgroundColor = `${colorproducer()}`
+        }
+    })
+});
+
+
 //const container = document.querySelector(".container");
-const button = document.querySelector(".content");
+/*const button = document.querySelector(".content");
 const c1 = document.querySelector(".content-1");
 const c2 = document.querySelector(".content-2");
 const c3 = document.querySelector(".content-3");
@@ -30,8 +47,6 @@ const c27 = document.querySelector(".content-27");
 const c28 = document.querySelector(".content-28");
 const c29 = document.querySelector(".content-29");
 const c30 = document.querySelector(".content-30");
-
-
 
 
 button.addEventListener("click", function() {
@@ -295,3 +310,4 @@ button.addEventListener("click", function(){
     text.textContent = `Background Color : rgb(${colorNumber})`;
     document.body.style.backgroundColor = `rgb(${colorNumber})`;
 });*/
+

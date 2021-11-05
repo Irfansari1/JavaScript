@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20rem;
+            text-align: center;
+        }
+        #backgroundColor{
+            
+            border-radius: 10px;
+            /*outline: 2px solid white;
+            outline-offset: 2px;
+            transition: all .7s;*/
+            box-shadow: 10px 10px 10px whitesmoke;
+            padding: 1rem;
+            width: 220px;
+            margin: 1rem; 
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #btn{
+            
+            border-radius: 10px;
+            padding: 1rem;
+            width: fit-content; 
+            color: white;
+            background-color: rgb(14, 191, 204);  
+        }
+
+        #btn:hover{
+            background-color: white;
+            color: rgb(36, 16, 16);
+            box-shadow: 5px 5px 5px 5px rgb(24, 9, 9);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="backgroundColor">
+            <h3 id="text"></h3>
+        </div>
+        <button type="submit" id="btn">Click me!</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

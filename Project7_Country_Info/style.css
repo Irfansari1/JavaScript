@@ -11,6 +11,9 @@ body {
   min-height: 96vh;
   background: linear-gradient(to top left, #0c0e0f, #1f5ae4);
   display: block;
+  background-image: url(./world_map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
 }
 /* fetch example */
